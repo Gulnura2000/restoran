@@ -1,0 +1,37 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    padding: 15px;
+    margin-left: 35px;
+}
+
+.card img{
+width: 80%;
+height: 300px;
+text-align: center;
+margin: auto;
+}
+/* .card {
+    height: 500px;
+    height: 600px;
+} */
+.card-body{
+    height: 300px;
+    /* height: 700px; */
+    text-align: center;
+}
+.col-lg-2{
+    width: 500px;
+
+    position: relative;
+}
+.col-lg-2 .btn {
+position: absolute;
+bottom: 15px;
+margin-left: 100px;
+}
